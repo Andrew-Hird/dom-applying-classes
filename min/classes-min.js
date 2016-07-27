@@ -1,1 +1,1 @@
-function start(){one(),two()}function one(){var t=document.getElementById("one");t.classList.add("blue")}function two(){var t=document.getElementById("two");t.classList.add("green")}document.addEventListener("DOMContentLoaded",start);
+function start(){one(),two(),three()}function one(){var e=document.getElementById("one");e.classList.add("blue")}function two(){var e=document.getElementById("two");e.classList.add("green")}function three(){var e=document.getElementById("three");e.classList.add("orange")}document.addEventListener("DOMContentLoaded",start);
