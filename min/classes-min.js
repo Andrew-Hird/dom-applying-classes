@@ -1,0 +1,1 @@
+function start(){one(),two()}function one(){var t=document.getElementById("one");t.classList.add("blue")}function two(){var t=document.getElementById("two");t.classList.add("green")}document.addEventListener("DOMContentLoaded",start);
